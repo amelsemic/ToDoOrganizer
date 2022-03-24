@@ -1,0 +1,70 @@
+body {
+  margin: 10px;
+}
+
+.wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#addTaskBtn {
+  margin-bottom: 15px;
+}
+
+.err-text {
+  color: red !important;
+}
+
+.hide {
+  display: none;
+}
+
+.col-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#doneList {
+  height: auto;
+  min-height: 50vh;
+  border-left: 5px dotted black;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  font: monospace;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+h4 {
+  padding-bottom: 40px;
+}
+
+.info {
+  /*  background-color: rgb(47, 137, 211); */
+  font-size: 20px;
+  font-family: cursive;
+  width: auto;
+  align-self: center;
+  margin-top: 40px;
+
+  background-color: rgba(7, 153, 245, 0.15);
+  display: flex;
+  align-items: center;
+}
